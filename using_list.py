@@ -15,4 +15,9 @@ print('Отсортирую-ка я свой список')
 shoplist.sort()
 print('Отсортированный список покупок выглядит так:', shoplist)
 
-print()
+print('Первое что мне нужно купить выглядит так:', shoplist[0])
+olditem = shoplist[0]
+del shoplist[0]
+print('Я купил', olditem)
+print('Теперь мой список покупок', shoplist)
+
